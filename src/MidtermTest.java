@@ -19,17 +19,17 @@ class MidtermTest {
 		
 		driver.get("https://nxtgenaiacademy.com/demo-site/");
 		
-		driver.findElement(By.xpath("//*[@id=\"vfb-5\"]")).sendKeys("วรปกร");
+		driver.findElement(By.xpath("//*[@id=\"vfb-5\"]")).sendKeys("นวพร");
 		
 		
-		driver.findElement(By.xpath("//*[@id=\"vfb-7\"]")).sendKeys("จารุศิริพจน์");
+		driver.findElement(By.xpath("//*[@id=\"vfb-7\"]")).sendKeys("บุญก่อน");
 		
 //		WebElement radio1 = driver.findElement(By.xpath("//*[@id=\"vfb-31-1\"]"));
 //		radio1.click();
 		
-		driver.findElement(By.xpath("//*[@id=\"vfb-13-address\"]")).sendKeys("บ้านเลขที่ 69 ซอยเพชรเกษม8 ตำบลพระประโทน อำเภอเมือง");
+		driver.findElement(By.xpath("//*[@id=\"vfb-13-address\"]")).sendKeys("บ้านเลขที่ 100/150  ตำบลลำพยา อำเภอเมือง");
 		
-		driver.findElement(By.xpath("//*[@id=\"vfb-13-address-2\"]")).sendKeys("เพชรเกษม");
+		driver.findElement(By.xpath("//*[@id=\"vfb-13-address-2\"]")).sendKeys("เกษมเพชร");
 		
 		
 		driver.findElement(By.xpath("//*[@id=\"vfb-13-city\"]")).sendKeys("ทาวน์เฮ้าส์");
@@ -58,7 +58,7 @@ class MidtermTest {
 //		option3.selectByVisibleText("55");
 		
 		
-		driver.findElement(By.xpath("//*[@id=\"vfb-19\"]")).sendKeys("0623844415");
+		driver.findElement(By.xpath("//*[@id=\"vfb-19\"]")).sendKeys("0928811045");
 		
 		driver.findElement(By.xpath("//*[@id=\"vfb-20-0\"]")).click();
 		
@@ -80,7 +80,7 @@ class MidtermTest {
 		driver.findElement(By.xpath("//*[@id=\"vfb-23\"]")).sendKeys("อยากรวยต้องทำยังไง");
 		
 		
-		driver.findElement(By.xpath("//*[@id=\"vfb-3\"]")).sendKeys("99");
+		driver.findElement(By.xpath("//*[@id=\"vfb-3\"]")).sendKeys("123");
 		
 		
 		
